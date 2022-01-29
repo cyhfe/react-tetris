@@ -1,5 +1,11 @@
+import Teris from "./components/Tetris"
+
 const App = () => {
-  return <div>hello world</div>
+  return (
+    <div className="app">
+      <Teris />
+    </div>
+  )
 }
 
 export default App
